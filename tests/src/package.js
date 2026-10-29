@@ -2,6 +2,7 @@ const expect = require('chai').expect;
 
 const path = require('path');
 const fs = require('fs');
+const { name } = require('../../package.json');
 
 function isJSFile(f) {
   return path.extname(f) === '.js';
@@ -21,7 +22,7 @@ describe('package', function () {
 
   it('exports top-level metadata, as the types declare', function () {
     expect(module).to.have.property('meta');
-    expect(module.meta).to.have.property('name', 'eslint-plugin-import');
+    expect(module.meta).to.have.property('name', name);
     expect(module.meta).to.have.property('version');
   });
 

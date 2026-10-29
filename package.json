@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-import",
+  "name": "@biffud/eslint-plugin-import",
   "version": "2.32.0",
   "description": "Import with sanity.",
   "engines": {
@@ -45,7 +45,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/import-js/eslint-plugin-import"
+    "url": "https://github.com/BadIdeaFactory/eslint-plugin-import"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "eslint",
