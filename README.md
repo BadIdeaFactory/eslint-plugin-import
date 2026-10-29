@@ -7,7 +7,6 @@
 [![npm](https://img.shields.io/npm/v/eslint-plugin-import.svg)](https://www.npmjs.com/package/eslint-plugin-import)
 [![npm downloads](https://img.shields.io/npm/dt/eslint-plugin-import.svg?maxAge=2592000)](https://www.npmtrends.com/eslint-plugin-import)
 
-> [!NOTE]
 > `@biffud/eslint-plugin-import` publishes [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import)'s unreleased `main` branch as of 2026-10-29, for use until upstream's next release.
 
 This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names. All the goodness that the ES2015+ static module syntax intends to provide, marked up in your editor.
