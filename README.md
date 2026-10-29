@@ -8,14 +8,7 @@
 [![npm downloads](https://img.shields.io/npm/dt/eslint-plugin-import.svg?maxAge=2592000)](https://www.npmtrends.com/eslint-plugin-import)
 
 > [!NOTE]
-> `@biffud/eslint-plugin-import` is a fork of [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import), built from upstream's `main` branch.
-> The only source change is that rule documentation links point to this fork, so they match the published code.
-> Otherwise only the package name, version, and publishing metadata differ, so rule names (`import/...`) and behavior are the same as upstream's.
-> It exists only to bridge the sometimes long gap between when upstream implements a change and when upstream cuts a release.
-> Once upstream releases the changes you need, switch back to [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import).
->
-> To make switching back a one-line change, or to keep using a legacy `.eslintrc` config, install it under the upstream name with an npm alias: `npm install eslint-plugin-import@npm:@biffud/eslint-plugin-import --save-dev`.
-> Please report bugs and send contributions [upstream](https://github.com/import-js/eslint-plugin-import/issues).
+> `@biffud/eslint-plugin-import` publishes [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import)'s unreleased `main` branch as of 2026-10-29, for use until upstream's next release.
 
 This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names. All the goodness that the ES2015+ static module syntax intends to provide, marked up in your editor.
 
