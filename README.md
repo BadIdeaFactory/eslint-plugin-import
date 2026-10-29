@@ -7,6 +7,15 @@
 [![npm](https://img.shields.io/npm/v/eslint-plugin-import.svg)](https://www.npmjs.com/package/eslint-plugin-import)
 [![npm downloads](https://img.shields.io/npm/dt/eslint-plugin-import.svg?maxAge=2592000)](https://www.npmtrends.com/eslint-plugin-import)
 
+> [!NOTE]
+> `@biffud/eslint-plugin-import` is a fork of [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import), built from upstream's `main` branch with its source unmodified.
+> Only the package name and publishing metadata differ, so rule names (`import/...`) and behavior are the same as upstream's.
+> It exists only to bridge the sometimes long gap between when upstream implements a change and when upstream cuts a release.
+> Once upstream releases the changes you need, switch back to [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import).
+>
+> To make switching back a one-line change, or to keep using a legacy `.eslintrc` config, install it under the upstream name with an npm alias: `npm install eslint-plugin-import@npm:@biffud/eslint-plugin-import --save-dev`.
+> Please report bugs and send contributions [upstream](https://github.com/import-js/eslint-plugin-import/issues).
+
 This plugin intends to support linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names. All the goodness that the ES2015+ static module syntax intends to provide, marked up in your editor.
 
 **IF YOU ARE USING THIS WITH SUBLIME**: see the [bottom section](#sublimelinter-eslint) for important info.
@@ -104,7 +113,7 @@ The maintainers of `eslint-plugin-import` and thousands of other packages are wo
 
 ```sh
 # inside your project's working tree
-npm install eslint-plugin-import --save-dev
+npm install @biffud/eslint-plugin-import --save-dev
 ```
 
 ### Config - Legacy (`.eslintrc`)
@@ -142,7 +151,7 @@ All rules are off by default. However, you may extend one of the preset configs,
 All rules are off by default. However, you may configure them manually in your `eslint.config.(js|cjs|mjs)`, or extend one of the preset configs:
 
 ```js
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from '@biffud/eslint-plugin-import';
 import js from '@eslint/js';
 
 export default [
@@ -166,7 +175,7 @@ export default [
  - Configuring rules without a preset:
 
 ```js
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from '@biffud/eslint-plugin-import';
 
 export default [
   {
@@ -212,7 +221,7 @@ Make sure you have installed [`@typescript-eslint/parser`] and [`eslint-import-r
 ### Config - Flat
 
 ```js
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from '@biffud/eslint-plugin-import';
 import tsParser from '@typescript-eslint/parser';
 
 export default [
@@ -243,7 +252,7 @@ If you are using the `config` method from [`typescript-eslint`](https://github.c
 
 ```js
 import tseslint from 'typescript-eslint';
-import importPlugin from 'eslint-plugin-import';
+import importPlugin from '@biffud/eslint-plugin-import';
 import js from '@eslint/js';
 
 export default tseslint.config(
