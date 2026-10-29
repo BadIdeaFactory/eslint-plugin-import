@@ -1,6 +1,6 @@
 {
   "name": "@biffud/eslint-plugin-import",
-  "version": "2.32.0",
+  "version": "1.0.0",
   "description": "Import with sanity.",
   "engines": {
     "node": ">=4"
