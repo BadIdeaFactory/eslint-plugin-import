@@ -8,8 +8,9 @@
 [![npm downloads](https://img.shields.io/npm/dt/eslint-plugin-import.svg?maxAge=2592000)](https://www.npmtrends.com/eslint-plugin-import)
 
 > [!NOTE]
-> `@biffud/eslint-plugin-import` is a fork of [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import), built from upstream's `main` branch with its source unmodified.
-> Only the package name and publishing metadata differ, so rule names (`import/...`) and behavior are the same as upstream's.
+> `@biffud/eslint-plugin-import` is a fork of [`eslint-plugin-import`](https://github.com/import-js/eslint-plugin-import), built from upstream's `main` branch.
+> The only source change is that rule documentation links point to this fork, so they match the published code.
+> Otherwise only the package name, version, and publishing metadata differ, so rule names (`import/...`) and behavior are the same as upstream's.
 > It exists only to bridge the sometimes long gap between when upstream implements a change and when upstream cuts a release.
 > Once upstream releases the changes you need, switch back to [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import).
 >
